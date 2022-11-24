@@ -11,15 +11,15 @@
     <value>org.apache.hadoop.mapred.ShuffleHandler</value>
   </property>
 
-  <property>
+  <!-- <property>
     <name>yarn.resourcemanager.webapp.address</name>
     <value>dtm2:8088</value>
-  </property>
+  </property> -->
 
-  <property>
+  <!-- <property>
     <name>yarn.resourcemanager.hostname</name>
     <value>dtm2</value>
-  </property>
+  </property> -->
 
   <property>
     <name>yarn.nodemanager.local-dirs</name>
@@ -53,12 +53,12 @@
 
   <property>
     <name>yarn.scheduler.minimum-allocation-mb</name>
-    <value>512</value>
+    <value>1024</value>
   </property>
 
   <property>
     <name>yarn.scheduler.maximum-allocation-mb</name>
-    <value>2048</value>
+    <value>20480</value>
   </property>
 
   <property>

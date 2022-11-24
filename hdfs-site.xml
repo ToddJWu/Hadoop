@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
 <configuration>
-  <property>
+  <!-- <property>
     <name>dfs.replication</name>
     <value>3</value>
-  </property>
+  </property> -->
 
   <property>
     <name>dfs.namenode.name.dir</name>
@@ -36,17 +36,17 @@
     <value>bigboss</value>
   </property>
 
-  <property>
+  <!-- <property>
     <name>dfs.permissions.enabled</name>
     <value>true</value>
-  </property>
+  </property> -->
 
-  <property>
+  <!-- <property>
     <name>dfs.namenode.acls.enabled</name>
     <value>true</value>
-  </property>
+  </property> -->
 
-  <property>
+  <!-- <property>
     <name>dfs.webhdfs.enabled</name>
     <value>false</value>
     <description>
@@ -54,7 +54,7 @@
      2. NameNode 內定會啟動 WebHDFS 網站
      3. webhdfs client 必須要能連接到所有 Datanode, 才能執行 HDFS 功能
     </description>
-  </property>
+  </property> -->
 
   <!--
   <property>
